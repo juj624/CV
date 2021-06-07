@@ -1,0 +1,220 @@
+html {
+    font-size: 62,5%;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;  
+}
+
+.name {
+    color: black;
+    background-color:yellow;
+    height:30px;
+    padding: 15px;;
+    margin: 15x;
+}
+
+.secondary-block{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
+
+.secondary-block header {
+    display: flex;
+    flex-direction: row;
+}
+
+.secondary-block ul {
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.secondary-block ul li {
+    padding: 20px;
+}
+
+ .secondary-block h2 {
+    margin-top: px;
+ }
+
+ .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+ }
+
+
+div h1 {
+    margin: 10px;
+}
+
+img {
+    margin: 20px;
+    border-radius: 120px;
+    box-shadow: 7px 7px 7px gray;
+    height: 190px;
+}
+
+.me {
+    background-color: yellow;
+    padding: 10px;
+    padding-bottom: 20px;
+
+
+}
+
+.title {
+    margin: 20px;
+    text-align: center;
+}
+
+.me ul {
+    padding-left: 10%;  
+}
+
+.title-formation {
+    margin: 20px;
+    text-align: center;
+}
+
+.formation-1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.year {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.formation-2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 30px;
+}
+
+ .years-2 {
+        display: flex;
+        justify-content: flex-end;
+ }
+
+.color-formation {
+    background-color: yellow;
+    padding: 10px;
+}
+
+.title-expérience-1 {
+    margin: 20px;
+    text-align: center;
+}
+
+.Expérience-1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.title-expérience-2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20px;
+}
+
+.Passions-title {
+    margin: 20px;
+    text-align: center;
+}
+
+.section-passion {
+    background-color: white;
+    padding: 20px;
+}
+
+.foot {
+    background-color: yellow;
+    padding: 20px;
+    list-style: none;
+}
+.foot li {
+    list-style-type: none;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blanchedalmond;
+}
+
+
+@media screen and (max-width: 800px){
+    .secondary-block {
+        font-size: 80%;
+        text-shadow: 1px 1px 2px pink;
+        
+    }
+    .secondary-block ul {
+        padding: 0px;
+        text-shadow: 1px 1px 2px pink;
+        
+    }
+    .secondary-block ul li {
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+    .header {
+        font-size: 80%;
+        text-shadow: 1px 1px 2px pink;
+    
+    }
+    .me,title {
+        font-size: 80%;
+        text-shadow: 1px 1px 2px pink;
+
+    }
+    .title-formation,.formation-1,.formation-2 {
+        font-size: 80%;
+        text-shadow: 1px 1px 2px pink;
+
+    }
+    .color-formation,.title-expérience-1,.Expérience-1 {
+        font-size: 90%;
+        text-shadow: 1px 1px 2px pink;
+    }
+
+    .Passions-title,.section-passion {
+        font-size: 90%;
+        text-shadow: 2px 2px 3px pink;
+    }
+    a,hover {
+        font-size: 80%;
+        text-shadow: 2px 2px 3px pink;
+    }
+}
+
+    .secondary-block menu {
+     font-size: 80%;
+     text-shadow: 2px 2px 3px pink;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.secondary-block h2 {
+    padding: 15px;
+}
+
+
